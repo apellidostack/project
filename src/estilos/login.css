@@ -1,0 +1,159 @@
+/*body{
+  background: rgb(4, 0, 59);
+}*/
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  /*border-radius: 20px;*/
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  
+}
+.enviar{
+  padding: 10px;
+  background-color: rgb(9, 4, 80);
+  color: aliceblue;
+  margin-top: 10px;
+  width: 70%;
+}
+.enviar2{
+  padding: 10px;
+  background-color: rgb(9, 4, 80);
+  color: aliceblue;
+}
+.form-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  color: rgb(9, 4, 80);
+}
+.ContenedorLogin{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(9, 4, 80);;
+}
+.form-content{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.fila{
+  margin-bottom: 20px;
+}
+img{
+  width: 100px;
+}
+/*input{
+  padding: 10px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(213, 213, 248);
+  outline: none;
+  color: aliceblue;
+}
+input:focus{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgb(247, 240, 240,0.3);
+  border-radius: 5px;
+}
+
+input::placeholder{
+  color: white;
+  opacity: 0.5;
+}*/
+/*button{
+  padding: 10px;
+  background-color: rgb(4, 0, 59);
+  color: aliceblue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}*/
+
+.alerta{
+  width: 500px;
+  height: 400px;
+  background-color: aliceblue;
+  color: blue;
+}
+.ContenedorEquipos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1rem;
+  
+}
+/*
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+/*detItems*/
+.detItem{
+  width: 100%;
+  margin-top: 50PX;
+  display: flex;
+  flex-direction: column;
+  color: rgb(4, 0, 59);
+}.filas{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.letra{
+  height: 70vh;
+  overflow: auto;
+}
+.reporte{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: rgb(255, 247, 203);
+}
+.ContenedorReporte{
+  display: flex;
+  flex-direction: row;
+  font-size: 12;
+}
+.column1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;  /* Espaciado interno */
+}
+
+.bordeComp{
+  border: 1px solid black;
+  margin: 0 -1px -1px 0;
+  font-size: 12;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(189, 231, 255);
+}
+.fil{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  border: 1px solid black;
+  margin: 0 -1px -1px 0;
+  flex: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+/*aqui estilos de tabla*/
+

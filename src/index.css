@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*li{
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid aliceblue;
+  background-color: rgb(0, 0, 29);
+}*/
+.guia{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+p{
+  font-size: 0.8em;
+}
+
+.pc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.pantalla{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+.soporte{
+  width: 1px;
+  background-color: black;
+  height: 10px;
+}
+.sb{
+  border-top: 1px solid black;
+  width: 70%;
+}
+.card{
+  width: 100%;
+  padding: 20px;
+  background: rgb(2,0,36);
+  background: linear-gradient(165deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 60%, rgba(0,212,255,1) 100%);
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.clicado{
+  background: rgb(124,0,0);
+background: linear-gradient(165deg, rgba(124,0,0,1) 0%, rgba(113,3,3,1) 54%, rgba(255,0,0,1) 100%);
+}
+.card:hover{
+  cursor: pointer;
+}
+.container-cards{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+@media (min-width: 1024px) {
+.container-cards{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 30%;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(165deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 60%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+    font-size: 1rem;
+  }
+  .clicado{
+    background: rgb(124,0,0);
+  background: linear-gradient(165deg, rgba(124,0,0,1) 0%, rgba(113,3,3,1) 54%, rgba(255,0,0,1) 100%);
+  }
+  .card:hover{
+    cursor: pointer;
+  }
+}
+
+
+
+
+/* global-styles.css */
+
+/* Estilos de la barra de desplazamiento para navegadores WebKit */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho de la barra de desplazamiento en navegadores WebKit (Chrome, Safari, etc.) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue; /* Color del "pulgar" de la barra de desplazamiento en navegadores WebKit */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color del fondo de la barra de desplazamiento en navegadores WebKit */
+}
